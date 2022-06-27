@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import styles from "./styles.module.css";
 
 import DatePicker from "./DatePicker";
 import TimePicker from "./TimePicker";
@@ -33,7 +32,7 @@ const DateTimePicker = () => {
   };
 
   return (
-    <div className="w-fit flex flex-col items-center m-[150px] p-4 shadow-md">
+    <div className="w-fit flex flex-col items-center p-4 shadow-md">
       <ToggleButton
         toggle={toggle}
         setToggle={setToggle}

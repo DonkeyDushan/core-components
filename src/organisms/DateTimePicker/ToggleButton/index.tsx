@@ -1,4 +1,4 @@
-import LinkButton from "../../../atoms/LinkButton";
+import LinkButton from "../../../components/molecules/LinkButton";
 import SingleButton from "./SingleButton";
 
 type ButtonTypes = {
